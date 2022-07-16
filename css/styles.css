@@ -1,0 +1,214 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-text: #212121;
+  --secondary-text: #757575;
+  --logo-text: #000000;
+  --sectional-color: #2f303a;
+  --hover-btn-color: #2196f3;
+  --secondary-color: #ffffff;
+  --color-phone-email: rgba(255, 255, 255, 0.6);
+  --btn-color-nav: #f5f4fa;
+}
+
+.body-title {
+  font-family: var(--main-font);
+  color: var(--main-text);
+}
+.logo-image {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-text);
+}
+.web-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--hover-btn-color);
+}
+.list {
+  list-style: none;
+}
+.linc {
+  text-decoration: none;
+}
+.menu-linc {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text);
+}
+.menu-linc:hover,
+.menu-linc:focus {
+  color: var(--hover-btn-color);
+}
+
+.email {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text);
+}
+
+.email:hover,
+.email:focus {
+  color: var(--hover-btn-color);
+}
+
+.contakt-phone-namber {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text);
+}
+
+.contakt-phone-namber:hover,
+.contakt-phone-namber:focus {
+  color: var(--hover-btn-color);
+}
+
+.hero {
+  background: var(--sectional-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color);
+}
+
+.modal-buttom {
+  background: var(--hover-btn-color);
+  cursor: pointer;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text);
+}
+.sud-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text);
+}
+.pages-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--main-text);
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--main-text);
+}
+
+.sub-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text);
+}
+.logo-footer {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+.footer-title {
+  background: var(--sectional-color);
+}
+
+.main-address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+.enail-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-phone-email);
+}
+.phone-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-phone-email);
+}
+/*portfolio*/
+
+.button-portfolio {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  background: var(--btn-color-nav);
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text);
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background: var(--hover-btn-color);
+  color: var(--secondary-color);
+}
+
+.suptitle-images {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text);
+}
+.description-suptitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text);
+}
+.address-list{
+ 
+  font-style: normal;
+}
