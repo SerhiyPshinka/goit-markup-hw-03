@@ -10,6 +10,7 @@
   --color-phone-email: rgba(255, 255, 255, 0.6);
   --btn-color-nav: #f5f4fa;
 }
+
 h1,
 h2,
 h3,
@@ -66,6 +67,8 @@ button {
 .main-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px;
+  border-color: #ececec;
 }
 .menu-iten:not(:last-child) {
   margin-right: 50px;
@@ -123,7 +126,9 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text);
-  margin-right: 50px;
+}
+.email-phone {
+  margin-left: 50px;
 }
 
 .email:hover,
@@ -145,13 +150,11 @@ button {
 }
 
 .hero {
+  text-align: center;
   background: var(--sectional-color);
-  width: 1600px;
-  height: 600px;
-  display: block;
-  padding-left: 452px;
+
   padding-top: 200px;
-  padding-right: 452px;
+
   padding-bottom: 280px;
 }
 
@@ -167,13 +170,10 @@ button {
 }
 
 .modal-buttom {
-  position: absolute;
   padding-left: 32px;
   padding-top: 10px;
   padding-right: 32px;
   padding-bottom: 10px;
-  left: 692px;
-  top: 430px;
 
   background: var(--hover-btn-color);
   border: 0px;
@@ -183,10 +183,11 @@ button {
   letter-spacing: 0.06em;
   color: var(--secondary-color);
 }
-.section-main-container {
-  margin-top: 94px;
-  margin-bottom: 118px;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+
 .main-title-list {
   display: flex;
 }
@@ -198,10 +199,9 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-text);
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .sud-title {
-  margin-right: 30px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -218,8 +218,8 @@ button {
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--main-text);
-  padding-top: 94px;
-  padding-bottom: 50px;
+
+  margin-bottom: 50px;
   text-align: center;
 }
 .box-images-container {
@@ -228,13 +228,17 @@ button {
 .box-imeges-margin:not(:last-child) {
   margin-right: 30px;
 }
-.section-name {
+.images {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.teem-section {
   background: #f5f4fa;
-  margin-top: 94px;
-  text-align: center;
 }
 .neme-box {
   display: flex;
+  margin-top: 50px;
 }
 .imeges-employees:not(:last-child) {
   margin-right: 30px;
@@ -246,16 +250,16 @@ button {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 94px;
 }
 .card-direction {
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 .name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 19px;
   letter-spacing: 0.03em;
   color: var(--main-text);
 }
@@ -263,10 +267,10 @@ button {
 .sub-name {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 19px;
   letter-spacing: 0.03em;
   color: var(--secondary-text);
-  padding-top: 10px;
+  margin-top: 10px;
 }
 
 .logo-footer {
@@ -275,6 +279,9 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+}
+.address-list {
+  margin-top: 20px;
 }
 
 .footer-title {
@@ -313,7 +320,7 @@ button {
 .butoon-position {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
+
   margin-bottom: 50px;
 }
 .list-box:not(:last-child) {
@@ -362,10 +369,16 @@ img {
 }
 .displey-portfolio-div {
   background: #ffffff;
-  border: 1px solid #eeeeee;
+
+  border-top: 0px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+
   padding-top: 20px;
-  padding-bottom: 30px;
-  margin-bottom: 94px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .suptitle-images {
