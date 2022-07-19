@@ -127,8 +127,8 @@ button {
   letter-spacing: 0.02em;
   color: var(--secondary-text);
 }
-.email-phone {
-  margin-left: 50px;
+.email-phone:not(:last-child) {
+  margin-right: 50px;
 }
 
 .email:hover,
@@ -232,6 +232,9 @@ button {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.direction{
+  padding-top: 0px;
 }
 .teem-section {
   background: #f5f4fa;
