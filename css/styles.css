@@ -10,7 +10,18 @@
   --color-phone-email: rgba(255, 255, 255, 0.6);
   --btn-color-nav: #f5f4fa;
 }
-
+.hidden-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 h1,
 h2,
 h3,
@@ -65,10 +76,10 @@ button {
   margin-right: 93px;
 }
 .main-header {
+  border: 1px solid #ececec;
+
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px;
-  border-color: #ececec;
 }
 .menu-iten:not(:last-child) {
   margin-right: 50px;
@@ -152,10 +163,8 @@ button {
 .hero {
   text-align: center;
   background: var(--sectional-color);
-
   padding-top: 200px;
-
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -219,7 +228,6 @@ button {
   letter-spacing: 0.03em;
   color: var(--main-text);
 
-  margin-bottom: 50px;
   text-align: center;
 }
 .box-images-container {
@@ -233,7 +241,7 @@ button {
   max-width: 100%;
   height: auto;
 }
-.direction{
+.direction {
   padding-top: 0px;
 }
 .teem-section {
@@ -391,9 +399,6 @@ img {
   letter-spacing: 0.06em;
   color: var(--main-text);
   margin-bottom: 4px;
-}
-.margin-carls {
-  padding-bottom: 94px;
 }
 
 .description-suptitle {
